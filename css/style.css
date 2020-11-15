@@ -1,0 +1,50 @@
+/* Css Dashboard */
+.box_game {
+    background-color: #F5F5F5;
+}
+
+#bg {
+    background-image: url("../images/dashboard/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 628px;
+}
+
+#tutorial {
+    position: relative;
+}
+
+.img_tutorial {
+    position: absolute;
+    top: 366px;
+    left: 35px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#intro {
+    margin-bottom: 170px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 0px;
+    justify-content: space-evenly;
+}
+
+.weeks > a > img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#box-row-01 {
+    padding: 8px 51px 0px 90px;
+}
+
+.grid_01 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 50;
+    justify-content: space-evenly;
+}
