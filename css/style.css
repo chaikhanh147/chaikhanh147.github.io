@@ -284,6 +284,42 @@
     font-size: 1.2em;
 }
 
+.btn_submit > button{
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+.btn_modal {
+    display: none;
+}
+.correct {
+    background: #7cb911;
+    color: #FFF;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+.incorrect {
+    background: #db5a4b;
+    color: #FFF;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+.modal-title {
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+.notify {
+    padding: 20px 0px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 30px;
+}
+
+.btn_reset_hide_continue,
+.btn_reset_hide {
+    display: none;
+}
 /* End Lesson 01 */
 
 
