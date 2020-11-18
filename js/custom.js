@@ -99,6 +99,7 @@ $(document).ready(function () {
     });
 
     $('.btn_reset_hide_continue').click(function(e){
-        window.location = "/weeks/week01/matching/lesson02.html";
+        let url = $('.btn_continue').attr('data-url');
+        window.location = url;
     });
 });

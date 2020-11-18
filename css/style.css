@@ -320,6 +320,52 @@
 .btn_reset_hide {
     display: none;
 }
+
+/* Question Quiz */
+
+.box_week01_lesson01_quiz {
+    background-image: url('../images/lesson/bg20.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    background-position: center center;
+    position: relative;
+}
+
+.slot_quiz {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+}
+
+.list_items_quiz {
+    list-style-type: none;
+    margin: 0;
+}
+
+.slot_quiz > label{
+    width: 200px;
+    padding-top: 6px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 25px;
+    padding-left: 78px;
+}
+
+.slot_quiz > select {
+    width: 60%;
+    height: 45px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 17px;
+}
+
+.box_img_quiz {
+    padding: 62px 60px 55px 5px;
+}
+
+.box_question_quiz {
+    margin-top: 45px;
+}
+
 /* End Lesson 01 */
 
 
