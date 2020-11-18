@@ -180,4 +180,111 @@
         transform: translate3d(2px, 0, 0);
     }
 }
+
+/* Lesson 01 */
+
+.box_week01_lesson01 {
+    background-image: url('../images/lesson/bg05.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    background-position: center center;
+    position: relative;
+}
+
+.box_lesson {
+    width: 858px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.title_question > h3 {
+    margin: 0px;
+    padding: 40px;
+    color: #4d4d4d;
+    text-align: center;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+.box_question {
+    margin-top: 80px;
+}
+
+.box_question .list_items {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.item {
+    background:#F4F4F4; 
+    border:1px solid #CFD5D6;
+    width: 78%;
+    height: 95px;
+    padding: 12px 25px;
+    margin: 0px 0px 50px 50px;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 22px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item > a > img{
+    max-width: 110px;
+    max-height: 115px;
+}
+
+.item:hover {
+    background-color: #FFF5B2;
+}
+
+.slot{
+    background:#F4F4F4; 
+    border:1px solid #CFD5D6;
+    width: 78%;
+    height: 95px;
+    /* padding: 25px 25px; */
+    margin: 0px 0px 50px 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 90px;
+    justify-content: center;
+}
+
+.slot > p{ 
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+    padding-top: 28px;
+}
+
+.box_img_question {
+    display: block;
+    max-width: 115px;
+    max-height: 115px;
+}
+
+.droparea {
+    border: 1px dashed #CFD5D6;
+    width: 120px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.ui-draggable-helper {
+    border: 1px dotted #CFD5D6;
+    padding: 0px;
+    background: #fff;
+    font-size: 1.2em;
+}
+
+/* End Lesson 01 */
+
+
 /* End Week 01 */
