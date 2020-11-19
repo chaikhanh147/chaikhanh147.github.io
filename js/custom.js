@@ -43,6 +43,7 @@ $(function(){
 
 });
 
+// Matching Quiz
 $(document).ready(function () {
     $(".btn_submit_quiz").click(function(e){
         e.preventDefault();
@@ -74,14 +75,38 @@ $(document).ready(function () {
         }
 
         console.log('status', status);
+
+        var icons_correct = [
+            '../../../audio/correct/1.jpg', 
+            '../../../audio/correct/2.gif', 
+            '../../../audio/correct/3.gif', 
+            '../../../audio/correct/4.gif', 
+            '../../../audio/correct/5.gif', 
+            '../../../audio/correct/6.gif', 
+            '../../../audio/correct/7.gif', 
+            '../../../audio/correct/8.gif'
+        ];
+
+        var icons_incorrect = [
+            '../../../audio/incorrect/1.gif', 
+            '../../../audio/incorrect/2.png', 
+            '../../../audio/incorrect/3.gif', 
+            '../../../audio/incorrect/4.gif', 
+            '../../../audio/incorrect/5.gif', 
+            '../../../audio/incorrect/6.gif'
+        ];
+
+        var item_icons_correct = icons_correct[Math.floor(Math.random() * icons_correct.length)];
+        var item_icons_incorrect = icons_incorrect[Math.floor(Math.random() * icons_incorrect.length)];
         
         if(status == true){
             // Correct
             $('.modal-title').text('Correct');
             $('.modal-header').addClass('correct');
             $('.notify').text("Đúng rồi !");
-            $('#audio').attr('src', '/audio/correct/01.m4a');
+            $('#audio').attr('src', '../../../audio/correct/01.m4a');
             $('.btn_reset_hide_continue').show();
+            $('.icon_status').attr('src', item_icons_correct);
             $('.btn_modal').click();
         }else {
             // Incorrect
@@ -89,7 +114,8 @@ $(document).ready(function () {
             $('.modal-header').addClass('incorrect');
             $('.notify').text("Chưa chính xác");
             $('.btn_reset_hide').show();
-            $('#audio').attr('src', '/audio/incorrect/01.m4a');
+            $('.icon_status').attr('src', item_icons_incorrect);
+            $('#audio').attr('src', '../../../audio/incorrect/01.m4a');
             $('.btn_modal').click();
         }
     });
@@ -103,3 +129,5 @@ $(document).ready(function () {
         window.location = url;
     });
 });
+
+// End Matching Quiz

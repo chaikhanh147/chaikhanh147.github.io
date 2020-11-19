@@ -366,6 +366,62 @@
     margin-top: 45px;
 }
 
+.icon_notify {
+    text-align: center;
+}
+
+.icon_notify > img{
+    width: 200px;
+}   
+
+
+.title_question_quiz {
+    padding-top: 30px;
+}
+
+.title_question_quiz > h3{ 
+    background: #FFF;
+    width: 640px;
+    padding: 15px 0px 15px 15px;
+    margin: 0px auto;
+    border: 2px solid;
+}
+
+.option_quesion_quiz > label{
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 27px;
+}
+
+.option_quesion_quiz > label > input[type="checkbox"]{ 
+    width: 35px;
+    height: 22px;
+}
+
+
+.box_question_option{
+    margin-top: 30px;
+}
+
+.row_box_opt {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    justify-content: space-evenly;
+}
+
+.box_question_answer > img{
+    max-width: 250px;
+}
+
+.checked_answer {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.checked_answer input[type="checkbox"]{ 
+    width: 35px;
+    height: 22px;
+}
 /* End Lesson 01 */
 
 
