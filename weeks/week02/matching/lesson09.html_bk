@@ -23,30 +23,29 @@
 					<div class="row">
 						<div class="col-md-6">
 							<ul class="right list_items_quiz list_items1">
-								<li class="slot_quiz">
-									<label for="sel1">Bố có</label>
+								<li class="slot_quiz_09">
+									<select class="form-control" name="quiz00" id="quiz01">
+										<option value="false">- Chọn -</option>
+										<option value="true">d</option>
+										<option value="false">đ</option>
+									</select>
+									<label for="sel1">ỗ</label>
+								</li>
+
+								<li class="slot_quiz_09">
 									<select class="form-control" name="quiz01" id="quiz01">
 										<option value="false">- Chọn -</option>
-										<option value="true">ba ba</option>
-										<option value="false">cá cờ</option>
-										<option value="false">cổ cò</option>
+										<option value="false">d</option>
+										<option value="true">đ</option>
 									</select>
+									<label for="sel1">á</label>
 								</li>
-								<!-- <li class="slot_quiz">
-									<label for="sel1">Bà có</label>
-									<select class="form-control" name="quiz02" id="quiz01">
-										<option value="false">- Select -</option>
-										<option value="false">cổ cò</option>
-										<option value="false">đỗ đỏ</option>
-										<option value="true">cá</option>
-									</select>
-								</li> -->
 							</ul>
 						</div>
 						
 						<div class="col-md-6">
 							<div class="box_img_quiz">
-								<img src="../../../images/lesson/question01/quiz/8.png" class="img-responsive" alt="">
+								<img src="../../../images/lesson/question01/quiz/9.png" class="img-responsive" alt="">
 							</div>
 						</div>
 					</div>	
@@ -86,7 +85,7 @@
 		  </div>
 		  <div class="modal-footer btn_reset_hide_continue">
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Làm lại</button> -->
-			<button type="button" class="btn btn-success btn_continue" data-url="../../../weeks/week01/matching/lesson09.html">Tiếp tục</button>
+			<button type="button" class="btn btn-success btn_continue" data-url="../../../weeks/week01/matching/lesson10.html">Tiếp tục</button>
 		  </div>
 		</div>
 		
@@ -99,7 +98,7 @@
 	<script type="text/javascript" src="../../../js/jquery-ui.min.js"></script>
 	<!-- <script src="/js/2x/jquery.min.js"></script>
 	<script src="/js/2x/jquery-ui.js"></script> -->
-	<script type="text/javascript" src="../../../js/custom1.js"></script>
+	<script type="text/javascript" src="../../../js/custom4.js"></script>
 
 	
 </body>

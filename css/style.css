@@ -109,7 +109,7 @@
     grid-template-rows: auto auto auto;
     grid-column-gap: 135px;
     justify-content: center;
-    margin-right: 150px;
+    margin-right: 235px;
 }
 
 .grid_week_01 > p {
@@ -155,7 +155,7 @@
 }
 
 .btn_img_start {
-    max-width: 190px;
+    max-width: 130px;
     max-height: 190px;
 }
 
@@ -422,6 +422,37 @@
     width: 35px;
     height: 22px;
 }
+
+.slot_quiz_09 {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+}
+
+.slot_quiz_09 > label{
+    width: 200px;
+    padding-top: 6px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.slot_quiz_09 > select {
+    width: 30%;
+    height: 45px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 17px;
+    margin-left: 85px;
+}
+
+
+.btn_butterfly {
+    position: absolute;
+    top: 225px;
+    right: 345px;
+    z-index: 999999;
+}
+
 /* End Lesson 01 */
 
 

@@ -24,12 +24,13 @@
 						<div class="col-md-6">
 							<ul class="right list_items_quiz list_items1">
 								<li class="slot_quiz">
-									<label for="sel1">Bố có</label>
+									<label for="sel1">Cò có</label>
 									<select class="form-control" name="quiz01" id="quiz01">
-										<option value="false">- Chọn -</option>
-										<option value="true">ba ba</option>
-										<option value="false">cá cờ</option>
-										<option value="false">cổ cò</option>
+										<option value="false">- Select -</option>
+										<option value="false">cạ</option>
+										<option value="false">ca</option>
+										<option value="true">cà</option>
+										<option value="false">cỗ</option>
 									</select>
 								</li>
 								<!-- <li class="slot_quiz">
@@ -46,7 +47,7 @@
 						
 						<div class="col-md-6">
 							<div class="box_img_quiz">
-								<img src="../../../images/lesson/question01/quiz/8.png" class="img-responsive" alt="">
+								<img src="../../../images/lesson/question01/quiz/2.png" class="img-responsive" alt="">
 							</div>
 						</div>
 					</div>	
@@ -86,7 +87,7 @@
 		  </div>
 		  <div class="modal-footer btn_reset_hide_continue">
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Làm lại</button> -->
-			<button type="button" class="btn btn-success btn_continue" data-url="../../../weeks/week01/matching/lesson09.html">Tiếp tục</button>
+			<button type="button" class="btn btn-success btn_continue" data-url="../../../weeks/week01/matching/lesson07.html">Tiếp tục</button>
 		  </div>
 		</div>
 		
