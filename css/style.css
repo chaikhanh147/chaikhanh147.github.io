@@ -453,7 +453,48 @@
     z-index: 999999;
 }
 
+.box_img_quiz_week02 > .box_img_weeks02 >img {
+    max-width: 250px;
+}
+
+.box_img_weeks02 {
+    justify-content: center;
+    display: flex;
+}
+
+
+.list_items1_week02 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.title_lesson {
+    text-align: center;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.title_lesson > span {
+    color: red;
+}
+
+
+.title_question_week02 > h3{
+    margin: 0px;
+    padding: 15px;
+    color: #4d4d4d;
+    text-align: center;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
 /* End Lesson 01 */
 
+/* Weeks 03 */
 
-/* End Week 01 */
+/* End weeks 03 */
