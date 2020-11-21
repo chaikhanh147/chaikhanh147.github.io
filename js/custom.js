@@ -38,6 +38,15 @@ $(function(){
 
             var dropId = ui.draggable.attr('id');
             $(this).attr('selected', dropId);
+            
+            // ui.draggable.position({
+            //     my: "center",
+            //     at: "center",
+            //     of: $this,
+            //     using: function(pos) {
+            //       $(this).animate(pos, 200, "linear");
+            //     }
+            // });
         }
     });
 
@@ -62,9 +71,7 @@ $(document).ready(function () {
             for (var key in winners_array) {
                 if(winners_array[key].answer != '' && winners_array[key].selected != ''){
                     console.log(winners_array[key].answer, '---', winners_array[key].selected);
-                    if(winners_array[key].answer == winners_array[key].selected){
-                        status = true;
-                    }else{
+                    if(winners_array[key].answer != winners_array[key].selected){
                         status = false;
                     }
                 }else {
