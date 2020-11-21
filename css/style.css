@@ -496,5 +496,9 @@
 /* End Lesson 01 */
 
 /* Weeks 03 */
+.list_items1_week03 {
+    list-style-type: none;
+    margin: 0;
+}
 
 /* End weeks 03 */

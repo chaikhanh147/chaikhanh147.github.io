@@ -17,38 +17,44 @@
 		<div class="box_lesson">
 		<div class="box_week01_lesson01_quiz">
 			<div class="title_question_quiz">
-				<h3>Quan sát tranh, chọn hình con Gấu</h3>
+				<h3>Quan sát tranh, chọn đáp án cho thích hợp</h3>
 			</div>
-				<div class="box_question_option">
-					<div class="row_box_opt">
-						<div class="box_question_answer">
-							<img src="../../../images/lesson/question02/15.jpg" class="img-responsive" alt="">
-							<p class="checked_answer">
-								<input type="checkbox" name="opt" value="true">
-							</p>
+				<div class="box_question_quiz">
+					<div class="row">
+						<div class="col-md-6">
+							<ul class="right list_items_quiz list_items1">
+								<li class="slot_quiz">
+									<label for="sel1">Cô Hà đi bộ ở :</label>
+									<form>
+										<div class="radio option_quesion_quiz">
+										  	<label>
+												<input type="checkbox" name="opt" value="false">
+												Hồ cá
+											</label>
+										</div>
+										<div class="radio option_quesion_quiz">
+										  	<label>
+												<input type="checkbox" name="opt" value="true">
+												Bờ hồ
+											</label>
+										</div>
+										<div class="radio option_quesion_quiz">
+											<label>
+											  <input type="checkbox" name="opt" value="false">
+												Bờ đê
+										  </label>
+									  </div>
+									  </form>
+								</li>
+							</ul>
 						</div>
-						<div class="box_question_answer">
-							<img src="../../../images/lesson/question02/16.jpg" class="img-responsive" alt="">
-							<p class="checked_answer">
-								<input type="checkbox" name="opt" value="false">
-							</p>
+						
+						<div class="col-md-6">
+							<div class="box_img_quiz">
+								<img src="../../../images/lesson/question02/13.png" class="img-responsive" alt="">
+							</div>
 						</div>
 					</div>	
-					<div class="row_box_opt" style="justify-content: center;">
-						<div class="box_question_answer"> 
-							<img src="../../../images/lesson/question02/17.jpg" class="img-responsive" alt="">
-							<p class="checked_answer">
-								<input type="checkbox" name="opt" value="false">
-							</p>
-						</div>
-						<!-- <div class="box_question_answer">
-							<img src="../../../images/lesson/question01/quiz/6.png" class="img-responsive" alt="">
-							<p class="checked_answer">
-								<input type="checkbox" name="opt" value="false">
-							</p>
-						</div> -->
-					</div>
-
 					<div class="row">
 						<div class="col-md-12">
 							<p class="text-center btn_submit">
@@ -85,7 +91,7 @@
 		  </div>
 		  <div class="modal-footer btn_reset_hide_continue">
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Làm lại</button> -->
-			<button type="button" class="btn btn-success btn_continue" data-url="../../../weeks/week02/matching/lesson11.html">Tiếp tục</button>
+			<button type="button" class="btn btn-success btn_continue" data-url="../../../weeks/week02/matching/lesson10.html">Tiếp tục</button>
 		  </div>
 		</div>
 		
@@ -98,7 +104,7 @@
 	<script type="text/javascript" src="../../../js/jquery-ui.min.js"></script>
 	<!-- <script src="/js/2x/jquery.min.js"></script>
 	<script src="/js/2x/jquery-ui.js"></script> -->
-	<script type="text/javascript" src="../../../js/custom5.js"></script>
+	<script type="text/javascript" src="../../../js/custom2.js"></script>
 
 	
 </body>

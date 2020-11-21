@@ -16,59 +16,43 @@
 	<div class="container">
 		<div class="box_lesson">
 		<div class="box_week01_lesson01_quiz">
-			<div class="title_question_week02">
-				<h3>Quan sát tranh, điền từ vào <br /> chỗ trống cho thích hợp</h3>
+			<div class="title_question_quiz">
+				<h3>Quan sát tranh, chọn đáp án cho thích hợp</h3>
 			</div>
 				<div class="box_question_quiz">
 					<div class="row">
-						<div class="col-md-12">
-							<h3 class="title_lesson"> <span>g</span> hay <span>gh ?</span></h3>
-						</div>
-					</div>
-					<div class="row">
 						<div class="col-md-6">
-							<div class="box_img_quiz_week02">
-								<p class="box_img_weeks02">
-									<img src="../../../images/lesson/question02/18.jpg" class="img-responsive" alt="">
-								</p>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="box_img_quiz_week02">
-								<p class="box_img_weeks02">
-									<img src="../../../images/lesson/question02/19.jpg" class="img-responsive" alt="">
-								</p>	
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<ul class="right list_items_quiz list_items1_week02">
-								<li class="slot_quiz_09">
-									<select class="form-control" name="quiz00" id="quiz01">
-										<option value="false">- Chọn -</option>
-										<option value="true">g</option>
-										<option value="false">gh</option>
-									</select>
-									<label for="sel1">à</label>
-								</li>
-
-								<li class="slot_quiz_09">
-									<select class="form-control" name="quiz01" id="quiz01">
-										<option value="false">- Chọn -</option>
-										<option value="false">g</option>
-										<option value="true">gh</option>
-									</select>
-									<label for="sel1">ẹ</label>
+							<ul class="right list_items_quiz list_items1">
+								<li class="slot_quiz">
+									<label for="sel1">Cô có :</label>
+									<form>
+										<div class="radio option_quesion_quiz">
+										  	<label>
+												<input type="checkbox" name="opt" value="true">
+												Cá
+											</label>
+										</div>
+										<div class="radio option_quesion_quiz">
+										  	<label>
+												<input type="checkbox" name="opt" value="false">
+												Kho cá
+											</label>
+										</div>
+										<div class="radio option_quesion_quiz">
+											<label>
+											  <input type="checkbox" name="opt" value="false">
+												Khế
+										  </label>
+									  </div>
+									  </form>
 								</li>
 							</ul>
 						</div>
 						
 						<div class="col-md-6">
-							<!-- <div class="box_img_quiz_week02">
-								
-								
-							</div> -->
+							<div class="box_img_quiz">
+								<img src="../../../images/lesson/question02/14.png" class="img-responsive" alt="">
+							</div>
 						</div>
 					</div>	
 					<div class="row">
@@ -107,7 +91,7 @@
 		  </div>
 		  <div class="modal-footer btn_reset_hide_continue">
 			<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Làm lại</button> -->
-			<button type="button" class="btn btn-success btn_continue" data-url="../../../weeks/week02/matching/lesson13.html">Tiếp tục</button>
+			<button type="button" class="btn btn-success btn_continue" data-url="../../../weeks/week02/matching/lesson09.html">Tiếp tục</button>
 		  </div>
 		</div>
 		
@@ -120,7 +104,7 @@
 	<script type="text/javascript" src="../../../js/jquery-ui.min.js"></script>
 	<!-- <script src="/js/2x/jquery.min.js"></script>
 	<script src="/js/2x/jquery-ui.js"></script> -->
-	<script type="text/javascript" src="../../../js/custom4.js"></script>
+	<script type="text/javascript" src="../../../js/custom2.js"></script>
 
 	
 </body>
