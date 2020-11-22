@@ -1,0 +1,668 @@
+/* Import Font */
+@font-face {
+    font-family: 'Arial-SGK-TV-bold';
+    src:  url('../fonts/pm/Arial-SGK-TV-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arial-SGK-TV-Italic';
+    src:  url('../fonts/pm/Arial-SGK-TV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Arial-SGK-TV-Regular';
+    src:  url('../fonts/pm/Arial-SGK-TV-Regular.ttf') format('truetype');
+}
+/* End import font */
+
+/* Css Dashboard */
+.box_game {
+    background-color: #F5F5F5;
+}
+
+#bg {
+    background-image: url("../images/dashboard/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 628px;
+}
+
+#tutorial {
+    position: relative;
+}
+
+.img_tutorial {
+    position: absolute;
+    top: 366px;
+    left: 35px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#intro {
+    margin-bottom: 170px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 0px;
+    justify-content: space-evenly;
+}
+
+.weeks > a > img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#box-row-01 {
+    padding: 8px 51px 0px 90px;
+}
+
+.grid_01 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 50px;
+    justify-content: space-evenly;
+}
+
+#box-row-02 {
+    padding: 5px 51px 0px 90px;
+}
+
+/* Week 01 */
+
+#bg_week01 {
+    background-image: url('../images/weeks/start_question.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    background-position: center center;
+    position: relative;
+}
+
+.box_intro {
+    margin: 0px 140px 1px 140px;
+    display: block;
+    padding: 80px 0px 0px 145px;
+}
+
+.week {
+    color: white;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
+    font-size: 40px;
+    font-family: 'Arial-SGK-TV-bold';
+}
+
+.number_week {
+    color: white;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
+    padding: 0px 0px 0px 25px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Arial-SGK-TV-bold';
+}
+
+.grid_week_01 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 135px;
+    justify-content: center;
+    margin-right: 235px;
+}
+
+.grid_week_01 > p {
+    font-size: 75px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+}
+
+.grid_week_02 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 115px;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.grid_week_02 > p {
+    font-size: 75px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+}
+
+.grid_week_03 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 115px;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.grid_week_03 > p {
+    font-size: 75px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+}
+
+.btn_start {
+    position: absolute;
+    top: 215px;
+    right: 218px;
+}
+
+.btn_img_start {
+    max-width: 130px;
+    max-height: 190px;
+}
+
+.btn_img_start:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+  
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
+/* Lesson 01 */
+
+.box_week01_lesson01 {
+    background-image: url('../images/lesson/bg05.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    background-position: center center;
+    position: relative;
+}
+
+.box_lesson {
+    width: 858px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.title_question > h3 {
+    margin: 0px;
+    padding: 40px;
+    color: #4d4d4d;
+    text-align: center;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+.box_question {
+    margin-top: 80px;
+}
+
+.box_question .list_items {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.item {
+    background:#F4F4F4; 
+    border:1px solid #CFD5D6;
+    width: 78%;
+    height: 95px;
+    padding: 12px 25px;
+    margin: 0px 0px 50px 50px;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 22px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item > a > img{
+    max-width: 110px;
+    max-height: 115px;
+}
+
+.item:hover {
+    background-color: #FFF5B2;
+}
+
+.slot{
+    background:#F4F4F4; 
+    border:1px solid #CFD5D6;
+    width: 78%;
+    height: 95px;
+    /* padding: 25px 25px; */
+    margin: 0px 0px 50px 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 90px;
+    justify-content: center;
+}
+
+.slot > p{ 
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+    padding-top: 28px;
+}
+
+.box_img_question {
+    display: block;
+    max-width: 115px;
+    max-height: 115px;
+}
+
+.droparea {
+    border: 1px dashed #CFD5D6;
+    width: 120px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.ui-draggable-helper {
+    border: 1px dotted #CFD5D6;
+    padding: 0px;
+    background: #fff;
+    font-size: 1.2em;
+}
+
+.btn_submit > button{
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+.btn_modal {
+    display: none;
+}
+.correct {
+    background: #7cb911;
+    color: #FFF;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+.incorrect {
+    background: #db5a4b;
+    color: #FFF;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+.modal-title {
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+.notify {
+    padding: 20px 0px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 30px;
+}
+
+.btn_reset_hide_continue,
+.btn_reset_hide {
+    display: none;
+}
+
+/* Question Quiz */
+
+.box_week01_lesson01_quiz {
+    background-image: url('../images/lesson/bg20.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center center;
+    position: relative;
+}
+
+.slot_quiz {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+}
+
+.list_items_quiz {
+    list-style-type: none;
+    margin: 0;
+}
+
+.slot_quiz > label{
+    width: 200px;
+    padding-top: 6px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 25px;
+    padding-left: 78px;
+}
+
+.slot_quiz > select {
+    width: 60%;
+    height: 45px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 17px;
+}
+
+.box_img_quiz {
+    padding: 62px 60px 55px 5px;
+}
+
+.box_question_quiz {
+    margin-top: 45px;
+}
+
+.icon_notify {
+    text-align: center;
+}
+
+.icon_notify > img{
+    width: 200px;
+}   
+
+
+.title_question_quiz {
+    padding-top: 30px;
+}
+
+.title_question_quiz > h3{ 
+    background: #FFF;
+    width: 640px;
+    padding: 15px 0px 15px 15px;
+    margin: 0px auto;
+    border: 2px solid;
+}
+
+.option_quesion_quiz > label{
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 27px;
+}
+
+.option_quesion_quiz > label > input[type="checkbox"]{ 
+    width: 35px;
+    height: 22px;
+}
+
+
+.box_question_option{
+    margin-top: 30px;
+}
+
+.row_box_opt {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    justify-content: space-evenly;
+}
+
+.box_question_answer > img{
+    max-width: 250px;
+}
+
+.checked_answer {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.checked_answer input[type="checkbox"]{ 
+    width: 35px;
+    height: 22px;
+}
+
+.slot_quiz_09 {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+}
+
+.slot_quiz_09 > label{
+    width: 200px;
+    padding-top: 6px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.slot_quiz_09 > select {
+    width: 30%;
+    height: 45px;
+    font-family: 'Arial-SGK-TV-Regular';
+    font-size: 17px;
+    margin-left: 85px;
+}
+
+
+.btn_butterfly {
+    position: absolute;
+    top: 225px;
+    right: 345px;
+    z-index: 999999;
+}
+
+.box_img_quiz_week02 > .box_img_weeks02 >img {
+    max-width: 250px;
+}
+
+.box_img_weeks02 {
+    justify-content: center;
+    display: flex;
+}
+
+
+.list_items1_week02 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.title_lesson {
+    text-align: center;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.title_lesson > span {
+    color: red;
+}
+
+
+.title_question_week02 > h3{
+    margin: 0px;
+    padding: 15px;
+    color: #4d4d4d;
+    text-align: center;
+    font-family: 'Arial-SGK-TV-bold';
+    font-size: 25px;
+}
+
+/* End Lesson 01 */
+
+/* Weeks 03 */
+.list_items1_week03 {
+    list-style-type: none;
+    margin: 0;
+}
+
+
+/* Weeks 05 */
+
+.btn_home {
+    position: absolute;
+    top: 400px;
+    right: 255px;
+    z-index: 999999;
+}
+
+.btn_img_start_home {
+    max-width: 110px;
+    max-height: 190px;
+}
+
+/* End weeks 05 */
+
+/* Week 08 */
+
+.grid_week_08 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 115px;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.grid_week_081 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-column-gap: 60px;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.grid_week_081 > p {
+    font-size: 45px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+}
+
+.grid_week_08 > p {
+    font-size: 45px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+}
+
+.slot_week08 {
+    background: #F4F4F4;
+    border: 1px solid #CFD5D6;
+    width: 78%;
+    height: 95px;
+    /* padding: 25px 25px; */
+    margin: 0px 0px 50px 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 90px;
+    justify-content: center;
+}
+
+.slot_week08 > p{ 
+    font-size: 20px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+    width: 167px;
+    padding-top: 20px;
+}
+
+.slot_week008 {
+    background: #F4F4F4;
+    border: 1px solid #CFD5D6;
+    width: 88%;
+    height: 95px;
+    /* padding: 25px 25px; */
+    margin: 0px 0px 50px 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 50px;
+    justify-content: center;
+}
+
+.slot_week008 > p { 
+    font-size: 20px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+    width: 167px;
+    padding-top: 20px;
+}
+
+.slot_week006 {
+    background: #F4F4F4;
+    border: 1px solid #CFD5D6;
+    width: 88%;
+    height: 95px;
+    /* padding: 25px 25px; */
+    margin: 0px 0px 50px 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 50px;
+    justify-content: center;
+}
+
+.slot_week006 > p { 
+    font-size: 20px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+    width: 167px;
+    padding-top: 20px;
+}
+
+/* Edit quiz weeks */
+
+.box_img_quiz_edit {
+    padding: 0px 60px 55px 5px;
+}
+
+.list_items_quiz_edit {
+    padding-left: 115px;
+    list-style-type: none;
+}
+
+.list_items_quiz_edit > label{
+    font-size: 27px;
+    font-family: 'Arial-SGK-TV-bold';
+}
+
+.slot_quiz_edit {
+    padding: 0px 0px 0px 0px;
+}
+
+.box_img_quiz_edit1 {
+    padding: 0px 175px 55px 175px;
+}
+
+.list_items_quiz_edit1 {
+    padding-left: 115px;
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+
+.list_items_quiz_edit1 > label{
+    font-size: 27px;
+    font-family: 'Arial-SGK-TV-bold';
+}
+
+.box_img_quiz_edit2 {
+    padding: 0px 175px 15px 175px;
+}
+
+
+/* End weeks 03 */
