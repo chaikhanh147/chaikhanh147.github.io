@@ -709,4 +709,21 @@
     color: #F37021;
 }
 
+.work_week {
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.work_week > img {
+    max-width: 250px;
+}
+
+.txt_work_home {
+    text-align: center;
+    padding-right: 186px;
+    font-size: 30px;
+    font-family: 'Arial-SGK-TV-bold';
+}
+
 /* End weeks 03 */
