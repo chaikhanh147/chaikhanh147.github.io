@@ -806,7 +806,7 @@
     left: 20%;
     font-size: 28px;
     font-family: 'Arial-SGK-TV-bold';
-    z-index: 9999;
+    z-index: 99;
 }
 
 
@@ -818,7 +818,7 @@
     left: 27%;
     font-size: 28px;
     font-family: 'Arial-SGK-TV-bold';
-    z-index: 9999;
+    z-index: 99;
 }
 
 .characters_week071::before {
@@ -829,7 +829,7 @@
     left: 22%;
     font-size: 28px;
     font-family: 'Arial-SGK-TV-bold';
-    z-index: 9999;
+    z-index: 99;
 }
 
 .characters_week072::before {
@@ -840,7 +840,7 @@
     left: 33%;
     font-size: 28px;
     font-family: 'Arial-SGK-TV-bold';
-    z-index: 9999;
+    z-index: 99;
 }
 
 .characters_week0712::before {
@@ -851,7 +851,152 @@
     left: 22%;
     font-size: 28px;
     font-family: 'Arial-SGK-TV-bold';
-    z-index: 9999;
+    z-index: 99;
+}
+
+.characters_week080::before {
+    content: "`";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 16%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week081::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 21%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week082::before {
+    content: ".";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 22%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week010::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 21%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week011::before {
+    content: ".";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 22%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+
+.characters_week012::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 16%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week013::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 21%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+
+.characters_week0101::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 22%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week0103::before {
+    content: ".";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 17%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week0102::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 19%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week0111::before {
+    content: ".";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 16%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week0112::before {
+    content: ".";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 22%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
+}
+
+.characters_week0113::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 16%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 99;
 }
 
 
