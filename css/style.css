@@ -777,4 +777,82 @@
     font-family: 'Arial-SGK-TV-bold';
     font-size: 35px;
 }
+
+
+.slot_quiz_090 {
+    display: inline-flex;
+    width: 100%;
+    padding: 22px 0px 22px 86px;
+    position: relative;
+}
+
+.slot_quiz_090 > #lable001{
+    font-size: 22px;
+    padding: 0px 6px 0px 6px;
+    font-family: 'Arial-SGK-TV-bold';
+}
+
+.slot_quiz_090 > select{
+    width: 10%;
+    margin-left: 0px;
+    height: 36px;
+}
+
+.characters::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 20%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 9999;
+}
+
+
+.characters_week070::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 27%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 9999;
+}
+
+.characters_week071::before {
+    content: "ˀ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 22%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 9999;
+}
+
+.characters_week072::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 33%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 9999;
+}
+
+.characters_week0712::before {
+    content: "´";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 22%;
+    font-size: 28px;
+    font-family: 'Arial-SGK-TV-bold';
+    z-index: 9999;
+}
+
+
 /* End weeks 03 */
