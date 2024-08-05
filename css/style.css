@@ -1000,4 +1000,24 @@
 }
 
 
+.backhome {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.backhome > a > img{
+    max-width: 65px;
+    max-height: 65px;
+    margin-left: 32px;
+    padding-bottom: 15px;
+}
+
+.txt_homes {
+    font-size: 25px;
+    font-family: 'Arial-SGK-TV-bold';
+    color: #F37021;
+}
+
+
 /* End weeks 03 */
